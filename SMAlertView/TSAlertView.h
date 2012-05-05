@@ -13,12 +13,6 @@ typedef enum {
 	
 } TSAlertViewButtonLayout;
 
-typedef enum {
-	TSAlertViewStyleNormal,
-	TSAlertViewStyleInput,
-	
-} TSAlertViewStyle;
-
 @class TSAlertViewController;
 @class TSAlertView;
 
@@ -63,7 +57,6 @@ typedef enum {
 @property(nonatomic, assign) CGFloat maxHeight;
 @property(nonatomic, assign) BOOL usesMessageTextView;
 @property(nonatomic, retain) UIImage* backgroundImage;
-@property(nonatomic, assign) TSAlertViewStyle style;
 @property(nonatomic, readonly) UITextField* inputTextField;
 
 - (id)initWithTitle:(NSString *)title message:(NSString *)message delegate:(id)delegate cancelButtonTitle:(NSString *)cancelButtonTitle otherButtonTitles:(NSString *)otherButtonTitles, ...;
