@@ -26,17 +26,15 @@ enum {
 @end
 
 
-@interface SMAlertViewController : UIViewController <UITextFieldDelegate> {
+@interface SMAlertViewController : UIViewController {
     UIView                                  *_alertView;
     UIView                                  *_backgroundView;
-    UITextField                             *_textField;
     
     id <NSObject, SMAlertViewControllerDelegate>   _delegate;
 }
 
 @property (nonatomic, retain) IBOutlet  UIView *alertView;
 @property (nonatomic, retain) IBOutlet  UIView *backgroundView;
-@property (nonatomic, retain) IBOutlet  UITextField *textField;
 
 @property (nonatomic, assign) IBOutlet id<SMAlertViewControllerDelegate, NSObject> delegate;
 
