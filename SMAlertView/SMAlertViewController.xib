@@ -96,10 +96,6 @@
 									<int key="NSColorSpace">3</int>
 									<bytes key="NSWhite">MC41AA</bytes>
 								</object>
-								<object class="NSCustomResource" key="IBUINormalBackgroundImage" id="644776004">
-									<string key="NSClassName">NSImage</string>
-									<string key="NSResourceName">button.png</string>
-								</object>
 							</object>
 							<object class="IBUIButton" id="230606960">
 								<reference key="NSNextResponder" ref="639880044"/>
@@ -116,7 +112,6 @@
 								<reference key="IBUIHighlightedTitleColor" ref="161827919"/>
 								<reference key="IBUINormalTitleColor" ref="161827919"/>
 								<reference key="IBUINormalTitleShadowColor" ref="559426063"/>
-								<reference key="IBUINormalBackgroundImage" ref="644776004"/>
 							</object>
 							<object class="IBUILabel" id="717699328">
 								<reference key="NSNextResponder" ref="639880044"/>
@@ -332,8 +327,10 @@
 					<string>4.IBPluginDependency</string>
 					<string>5.IBPluginDependency</string>
 					<string>5.IBViewBoundsToFrameTransform</string>
+					<string>6.CustomClassName</string>
 					<string>6.IBPluginDependency</string>
 					<string>6.IBViewBoundsToFrameTransform</string>
+					<string>7.CustomClassName</string>
 					<string>7.IBPluginDependency</string>
 					<string>7.IBViewBoundsToFrameTransform</string>
 					<string>8.IBPluginDependency</string>
@@ -356,10 +353,12 @@
 					<object class="NSAffineTransform">
 						<bytes key="NSTransformStruct">AUFQAABCXAAAA</bytes>
 					</object>
+					<string>AlertButton</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<object class="NSAffineTransform">
 						<bytes key="NSTransformStruct">AUIUAABDKgAAA</bytes>
 					</object>
+					<string>AlertButton</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<object class="NSAffineTransform">
 						<bytes key="NSTransformStruct">AUMkAABDKgAAA</bytes>
@@ -395,6 +394,14 @@
 		<object class="IBClassDescriber" key="IBDocument.Classes">
 			<object class="NSMutableArray" key="referencedPartialClassDescriptions">
 				<bool key="EncodedWithXMLCoder">YES</bool>
+				<object class="IBPartialClassDescription">
+					<string key="className">AlertButton</string>
+					<string key="superclassName">UIButton</string>
+					<object class="IBClassDescriptionSource" key="sourceIdentifier">
+						<string key="majorKey">IBProjectSource</string>
+						<string key="minorKey">SMAlertView/AlertButton.h</string>
+					</object>
+				</object>
 				<object class="IBPartialClassDescription">
 					<string key="className">SMAlertViewController</string>
 					<string key="superclassName">UIViewController</string>
@@ -733,13 +740,11 @@
 				<bool key="EncodedWithXMLCoder">YES</bool>
 				<string>background.png</string>
 				<string>behind.png</string>
-				<string>button.png</string>
 			</object>
 			<object class="NSMutableArray" key="dict.values">
 				<bool key="EncodedWithXMLCoder">YES</bool>
 				<string>{293, 192}</string>
 				<string>{320, 460}</string>
-				<string>{118, 43}</string>
 			</object>
 		</object>
 		<string key="IBCocoaTouchPluginVersion">141</string>
