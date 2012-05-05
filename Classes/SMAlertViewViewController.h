@@ -15,6 +15,7 @@
 
 - (IBAction)showCustomAlert;
 - (IBAction)showDefaultAlert;
+- (IBAction)showAlertView;
 
 @end
 

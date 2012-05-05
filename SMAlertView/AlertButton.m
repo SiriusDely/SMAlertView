@@ -3,7 +3,7 @@
 #import <CoreGraphics/CoreGraphics.h>
 #import "AlertButton.h"
 
-#define kCornerRadius 7
+#define kCornerRadius 4
 
 @implementation AlertButton
 
