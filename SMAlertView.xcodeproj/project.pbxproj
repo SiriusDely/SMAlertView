@@ -17,13 +17,13 @@
 		28D7ACF80DDB3853001CB0EB /* SMAlertViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* SMAlertViewViewController.m */; };
 		DE9BE89C1554D0F900A41715 /* BackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = DE9BE8991554D0F900A41715 /* BackgroundView.m */; };
 		DE9BE89D1554D0F900A41715 /* AlertButton.m in Sources */ = {isa = PBXBuildFile; fileRef = DE9BE89B1554D0F900A41715 /* AlertButton.m */; };
-		DE9BE9BF1554DED000A41715 /* TSAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = DE9BE9B81554DED000A41715 /* TSAlertView.m */; };
-		DE9BE9C01554DED000A41715 /* TSAlertViewMessageListViewShadow.png in Resources */ = {isa = PBXBuildFile; fileRef = DE9BE9B91554DED000A41715 /* TSAlertViewMessageListViewShadow.png */; };
-		DE9BE9C11554DED000A41715 /* TSAlertViewBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = DE9BE9BA1554DED000A41715 /* TSAlertViewBackground.png */; };
-		DE9BE9C21554DED000A41715 /* TSAlertViewBackground2.png in Resources */ = {isa = PBXBuildFile; fileRef = DE9BE9BB1554DED000A41715 /* TSAlertViewBackground2.png */; };
-		DE9BE9C31554DED000A41715 /* TSAlertViewButtonBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = DE9BE9BC1554DED000A41715 /* TSAlertViewButtonBackground.png */; };
-		DE9BE9C41554DED000A41715 /* TSAlertViewButtonBackground_Highlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = DE9BE9BD1554DED000A41715 /* TSAlertViewButtonBackground_Highlighted.png */; };
-		DE9BE9C51554DED000A41715 /* TSAlertViewCancelButtonBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = DE9BE9BE1554DED000A41715 /* TSAlertViewCancelButtonBackground.png */; };
+		DE9BE9BF1554DED000A41715 /* SMAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = DE9BE9B81554DED000A41715 /* SMAlertView.m */; };
+		DE9BE9C01554DED000A41715 /* SMAlertViewMessageListViewShadow.png in Resources */ = {isa = PBXBuildFile; fileRef = DE9BE9B91554DED000A41715 /* SMAlertViewMessageListViewShadow.png */; };
+		DE9BE9C11554DED000A41715 /* SMAlertViewBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = DE9BE9BA1554DED000A41715 /* SMAlertViewBackground.png */; };
+		DE9BE9C21554DED000A41715 /* SMAlertViewBackground2.png in Resources */ = {isa = PBXBuildFile; fileRef = DE9BE9BB1554DED000A41715 /* SMAlertViewBackground2.png */; };
+		DE9BE9C31554DED000A41715 /* SMAlertViewButtonBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = DE9BE9BC1554DED000A41715 /* SMAlertViewButtonBackground.png */; };
+		DE9BE9C41554DED000A41715 /* SMAlertViewButtonBackground_Highlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = DE9BE9BD1554DED000A41715 /* SMAlertViewButtonBackground_Highlighted.png */; };
+		DE9BE9C51554DED000A41715 /* SMAlertViewCancelButtonBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = DE9BE9BE1554DED000A41715 /* SMAlertViewCancelButtonBackground.png */; };
 		DE9FB5E41544FBC700F99B7D /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = DE9FB5E11544FBC700F99B7D /* background.png */; };
 		DE9FB5ED1544FBFA00F99B7D /* UIView+AlertAnimations.m in Sources */ = {isa = PBXBuildFile; fileRef = DE9FB5EC1544FBFA00F99B7D /* UIView+AlertAnimations.m */; };
 		DE9FB5F51544FC7E00F99B7D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE9FB5F41544FC7E00F99B7D /* QuartzCore.framework */; };
@@ -49,14 +49,14 @@
 		DE9BE8991554D0F900A41715 /* BackgroundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BackgroundView.m; sourceTree = "<group>"; };
 		DE9BE89A1554D0F900A41715 /* AlertButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlertButton.h; sourceTree = "<group>"; };
 		DE9BE89B1554D0F900A41715 /* AlertButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlertButton.m; sourceTree = "<group>"; };
-		DE9BE9B71554DED000A41715 /* TSAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSAlertView.h; sourceTree = "<group>"; };
-		DE9BE9B81554DED000A41715 /* TSAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSAlertView.m; sourceTree = "<group>"; };
-		DE9BE9B91554DED000A41715 /* TSAlertViewMessageListViewShadow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TSAlertViewMessageListViewShadow.png; sourceTree = "<group>"; };
-		DE9BE9BA1554DED000A41715 /* TSAlertViewBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TSAlertViewBackground.png; sourceTree = "<group>"; };
-		DE9BE9BB1554DED000A41715 /* TSAlertViewBackground2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TSAlertViewBackground2.png; sourceTree = "<group>"; };
-		DE9BE9BC1554DED000A41715 /* TSAlertViewButtonBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TSAlertViewButtonBackground.png; sourceTree = "<group>"; };
-		DE9BE9BD1554DED000A41715 /* TSAlertViewButtonBackground_Highlighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TSAlertViewButtonBackground_Highlighted.png; sourceTree = "<group>"; };
-		DE9BE9BE1554DED000A41715 /* TSAlertViewCancelButtonBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TSAlertViewCancelButtonBackground.png; sourceTree = "<group>"; };
+		DE9BE9B71554DED000A41715 /* SMAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMAlertView.h; sourceTree = "<group>"; };
+		DE9BE9B81554DED000A41715 /* SMAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMAlertView.m; sourceTree = "<group>"; };
+		DE9BE9B91554DED000A41715 /* SMAlertViewMessageListViewShadow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SMAlertViewMessageListViewShadow.png; sourceTree = "<group>"; };
+		DE9BE9BA1554DED000A41715 /* SMAlertViewBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SMAlertViewBackground.png; sourceTree = "<group>"; };
+		DE9BE9BB1554DED000A41715 /* SMAlertViewBackground2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SMAlertViewBackground2.png; sourceTree = "<group>"; };
+		DE9BE9BC1554DED000A41715 /* SMAlertViewButtonBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SMAlertViewButtonBackground.png; sourceTree = "<group>"; };
+		DE9BE9BD1554DED000A41715 /* SMAlertViewButtonBackground_Highlighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SMAlertViewButtonBackground_Highlighted.png; sourceTree = "<group>"; };
+		DE9BE9BE1554DED000A41715 /* SMAlertViewCancelButtonBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SMAlertViewCancelButtonBackground.png; sourceTree = "<group>"; };
 		DE9FB5E11544FBC700F99B7D /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
 		DE9FB5EB1544FBFA00F99B7D /* UIView+AlertAnimations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+AlertAnimations.h"; sourceTree = "<group>"; };
 		DE9FB5EC1544FBFA00F99B7D /* UIView+AlertAnimations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+AlertAnimations.m"; sourceTree = "<group>"; };
@@ -156,14 +156,14 @@
 				DE9FB6101544FD0C00F99B7D /* SMAlertViewController.h */,
 				DE9FB6111544FD0C00F99B7D /* SMAlertViewController.m */,
 				DE9FB6121544FD0C00F99B7D /* SMAlertViewController.xib */,
-				DE9BE9B71554DED000A41715 /* TSAlertView.h */,
-				DE9BE9B81554DED000A41715 /* TSAlertView.m */,
-				DE9BE9B91554DED000A41715 /* TSAlertViewMessageListViewShadow.png */,
-				DE9BE9BA1554DED000A41715 /* TSAlertViewBackground.png */,
-				DE9BE9BB1554DED000A41715 /* TSAlertViewBackground2.png */,
-				DE9BE9BC1554DED000A41715 /* TSAlertViewButtonBackground.png */,
-				DE9BE9BD1554DED000A41715 /* TSAlertViewButtonBackground_Highlighted.png */,
-				DE9BE9BE1554DED000A41715 /* TSAlertViewCancelButtonBackground.png */,
+				DE9BE9B71554DED000A41715 /* SMAlertView.h */,
+				DE9BE9B81554DED000A41715 /* SMAlertView.m */,
+				DE9BE9B91554DED000A41715 /* SMAlertViewMessageListViewShadow.png */,
+				DE9BE9BA1554DED000A41715 /* SMAlertViewBackground.png */,
+				DE9BE9BB1554DED000A41715 /* SMAlertViewBackground2.png */,
+				DE9BE9BC1554DED000A41715 /* SMAlertViewButtonBackground.png */,
+				DE9BE9BD1554DED000A41715 /* SMAlertViewButtonBackground_Highlighted.png */,
+				DE9BE9BE1554DED000A41715 /* SMAlertViewCancelButtonBackground.png */,
 			);
 			path = SMAlertView;
 			sourceTree = "<group>";
@@ -221,12 +221,12 @@
 				2899E5220DE3E06400AC0155 /* SMAlertViewViewController.xib in Resources */,
 				DE9FB5E41544FBC700F99B7D /* background.png in Resources */,
 				DE9FB6141544FD0C00F99B7D /* SMAlertViewController.xib in Resources */,
-				DE9BE9C01554DED000A41715 /* TSAlertViewMessageListViewShadow.png in Resources */,
-				DE9BE9C11554DED000A41715 /* TSAlertViewBackground.png in Resources */,
-				DE9BE9C21554DED000A41715 /* TSAlertViewBackground2.png in Resources */,
-				DE9BE9C31554DED000A41715 /* TSAlertViewButtonBackground.png in Resources */,
-				DE9BE9C41554DED000A41715 /* TSAlertViewButtonBackground_Highlighted.png in Resources */,
-				DE9BE9C51554DED000A41715 /* TSAlertViewCancelButtonBackground.png in Resources */,
+				DE9BE9C01554DED000A41715 /* SMAlertViewMessageListViewShadow.png in Resources */,
+				DE9BE9C11554DED000A41715 /* SMAlertViewBackground.png in Resources */,
+				DE9BE9C21554DED000A41715 /* SMAlertViewBackground2.png in Resources */,
+				DE9BE9C31554DED000A41715 /* SMAlertViewButtonBackground.png in Resources */,
+				DE9BE9C41554DED000A41715 /* SMAlertViewButtonBackground_Highlighted.png in Resources */,
+				DE9BE9C51554DED000A41715 /* SMAlertViewCancelButtonBackground.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,7 +244,7 @@
 				DE9FB6131544FD0C00F99B7D /* SMAlertViewController.m in Sources */,
 				DE9BE89C1554D0F900A41715 /* BackgroundView.m in Sources */,
 				DE9BE89D1554D0F900A41715 /* AlertButton.m in Sources */,
-				DE9BE9BF1554DED000A41715 /* TSAlertView.m in Sources */,
+				DE9BE9BF1554DED000A41715 /* SMAlertView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

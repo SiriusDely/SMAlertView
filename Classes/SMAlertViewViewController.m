@@ -7,7 +7,7 @@
 //
 
 #import "SMAlertViewViewController.h"
-#import "TSAlertView.h"
+#import "SMAlertView.h"
 
 @implementation SMAlertViewViewController
 
@@ -51,7 +51,7 @@
 }
 - (IBAction)showAlertView
 {
-	TSAlertView *alertView = [[TSAlertView alloc] initWithTitle:@"Beri Nilai" message:@"\n\n\n" delegate:self cancelButtonTitle:@"Cancel" otherButtonTitles:@"OK", nil];
+	SMAlertView *alertView = [[SMAlertView alloc] initWithTitle:@"Beri Nilai" message:@"\n\n\n" delegate:self cancelButtonTitle:@"Cancel" otherButtonTitles:@"OK", nil];
 	[alertView show];
 	[alertView release];
 }
