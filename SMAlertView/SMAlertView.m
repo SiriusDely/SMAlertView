@@ -126,14 +126,12 @@ const CGFloat kSMAlertView_ColumnMargin = 10.0;
 		if ( nil != otherButtonTitles ) {
 			firstOtherButtonIndex = [self.buttons count];
 			[self addButtonWithTitle: otherButtonTitles ];
-			
 			va_list args;
 			va_start(args, otherButtonTitles);
 			id arg;
 			while ( nil != ( arg = va_arg( args, id ) ) ) {
 				if ( ![arg isKindOfClass: [NSString class] ] )
 					return nil;
-				
 				[self addButtonWithTitle: (NSString*)arg ];
 			}
 		}
@@ -169,7 +167,6 @@ const CGFloat kSMAlertView_ColumnMargin = 10.0;
 - (void) SMAlertView_commonInit {
 	self.backgroundColor = [UIColor clearColor];
 	self.autoresizingMask = UIViewAutoresizingFlexibleLeftMargin | UIViewAutoresizingFlexibleRightMargin | UIViewAutoresizingFlexibleTopMargin | UIViewAutoresizingFlexibleBottomMargin; 
-	
 	// defaults:
 	self.width = 0; // set to default
 	self.maxHeight = 0; // set to default
@@ -230,7 +227,7 @@ const CGFloat kSMAlertView_ColumnMargin = 10.0;
 		_messageLabel.backgroundColor = [UIColor clearColor];
 		_messageLabel.textColor = [UIColor whiteColor];
 		_messageLabel.textAlignment = UITextAlignmentCenter;
-		_messageLabel.lineBreakMode = UILineBreakModeWordWrap;
+		_messageLabel.baselineAdjustment = UIBaselineAdjustmentNone;
 		_messageLabel.numberOfLines = 0;
 	}
 	return _messageLabel;
@@ -397,7 +394,6 @@ const CGFloat kSMAlertView_ColumnMargin = 10.0;
     animation.duration = 0.2555;
     [layer addAnimation:animation forKey:@"opacity"];
 	overlayWindow.alpha = 1;
-	
 	// add and pulse the alertview
 	// add the alertview
 	[alertViewController.view addSubview: self];
